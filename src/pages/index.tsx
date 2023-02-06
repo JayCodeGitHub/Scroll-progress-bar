@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Scroll progress bar</h1>
+        <h1 className="text-red-500">Scroll progress bar</h1>
       </main>
     </>
   );
