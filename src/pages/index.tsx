@@ -9,8 +9,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <h1 className="text-red-500">Scroll progress bar</h1>
+      <main className="pt-4">
+        <h1>Scroll progress bar</h1>
       </main>
     </>
   );

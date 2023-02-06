@@ -1,7 +1,7 @@
 function ProgressBar() {
   return (
     <>
-      <div>ProgressBar</div>
+      <div className="fixed w-full h-3 bg-red-500"></div>
     </>
   );
 }
