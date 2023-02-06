@@ -1,3 +1,5 @@
+import ProgressBar from "./progressBar";
+
 interface LayoutProps {
   children: React.ReactNode;
 }
@@ -5,6 +7,7 @@ interface LayoutProps {
 function Layout({ children }: LayoutProps) {
   return (
     <>
+      <ProgressBar />
       <main>{children}</main>
     </>
   );
